@@ -20,7 +20,7 @@
   }
   input {
     width: 400px;
-    height: 40px;
+    height: 60px;
     border: 1.5px solid var(--border-color);
     border-radius: var(--border-radius);
   }
