@@ -9,7 +9,7 @@ const Form = () => {
         <Button />
         <section className="grid justify-content align-content grid-gapR ">
           <img
-            src="https://images.unsplash.com/flagged/photo-1573603867003-89f5fd7a7576?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80"
+            src="https://res.cloudinary.com/dvbw8xujd/image/upload/v1666701300/opypjpsweaheb0fzbyt4.jpg"
             className={` ${styles.img}  `}
           ></img>
 
