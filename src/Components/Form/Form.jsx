@@ -39,6 +39,7 @@ const Form = () => {
         </form>
 
         <section className="flex gap2 ">
+            
           <section className="heading1  fontWeight1">Stay signed in</section>
 
           <section>
