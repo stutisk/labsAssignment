@@ -34,7 +34,9 @@ const Form = () => {
             />{" "}
             <AiOutlineEye size={25}className= {` ${styles.icons} p3 pointer`}/>
           </section>
-          <section className="grid justify-content align-content  ">
+         
+        </form>
+        <section className="grid justify-content align-content  ">
             <section className="flex flex-column ">
               <section className={`  heading1 text-center fontWeight1`}>
                 Forgot password?{" "}
@@ -44,7 +46,6 @@ const Form = () => {
               </section>
             </section>
           </section>
-        </form>
 
         <section className="flex gap2  ">
           <section className="heading1  fontWeight1 align-self ">Stay signed in</section>
