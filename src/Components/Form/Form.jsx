@@ -46,8 +46,8 @@ const Form = () => {
           </section>
         </form>
 
-        <section className="flex gap2 ">
-          <section className="heading1  fontWeight1">Stay signed in</section>
+        <section className="flex gap2  ">
+          <section className="heading1  fontWeight1 align-self ">Stay signed in</section>
 
           <section>
             <Signin />
