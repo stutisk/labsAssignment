@@ -53,7 +53,9 @@ const Form = () => {
             <Signin />
           </section>
         </section>
-        <footer>
+       
+      </section>
+      <footer className="p2">
           <section
             className={` ${styles.heading} heading1 text-center fontWeight1`}
           >
@@ -72,7 +74,6 @@ const Form = () => {
             .
           </section>
         </footer>
-      </section>
     </section>
   );
 };
