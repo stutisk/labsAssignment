@@ -105,6 +105,9 @@ code {
 .p2{
   padding: 2rem;
 }
+.p3{
+  padding: 5px;
+}
 
 .button{
   width: 32px;

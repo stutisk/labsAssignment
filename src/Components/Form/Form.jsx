@@ -1,6 +1,7 @@
 import styles from "../Form/Form.module.css";
 import { Button } from "../Button/Button";
 import { Signin } from "../Button/Signin";
+import { AiOutlineEye } from "react-icons/ai";
 const Form = () => {
   return (
     <section className={` ${styles.page}  `}>
@@ -25,7 +26,14 @@ const Form = () => {
           <label for="input" className="heading1  fontWeight1">
             Password
           </label>
-          <input className="input" type="password" placeholder="andrew@polka" />
+          <section>
+            <input
+              className="input"
+              type="password"
+              placeholder="andrew@polka"
+            />{" "}
+            <AiOutlineEye size={25}className= {` ${styles.icons} p3 pointer`}/>
+          </section>
           <section className="grid justify-content align-content  ">
             <section className="flex flex-column ">
               <section className={`  heading1 text-center fontWeight1`}>
@@ -39,7 +47,6 @@ const Form = () => {
         </form>
 
         <section className="flex gap2 ">
-            
           <section className="heading1  fontWeight1">Stay signed in</section>
 
           <section>
@@ -56,7 +63,13 @@ const Form = () => {
             className={` ${styles.heading} heading1 text-center fontWeight1`}
           >
             {" "}
-           <span className={` ${styles.footerSpan}`}>Privacy Policy</span>  and <span className={` ${styles.footerSpan}`}>Terms of Service apply</span>.
+            <span className={` ${styles.footerSpan}`}>
+              Privacy Policy
+            </span> and{" "}
+            <span className={` ${styles.footerSpan}`}>
+              Terms of Service apply
+            </span>
+            .
           </section>
         </footer>
       </section>
