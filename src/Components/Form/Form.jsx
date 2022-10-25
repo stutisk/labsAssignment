@@ -28,7 +28,7 @@ const Form = () => {
           </label>
           <section>
             <input
-              className="input"
+              className="input p-px"
               type="password"
               placeholder="andrew@polka"
             />{" "}

@@ -100,7 +100,7 @@ code {
 /* padding */
 
 .p-px {
-  padding: 1px;
+  padding-left: 10px;
 }
 .p2{
   padding: 2rem;
