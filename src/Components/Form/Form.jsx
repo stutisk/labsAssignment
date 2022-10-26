@@ -35,11 +35,7 @@ const Form = () => {
           <section>
             <input className=" p3" type="password" placeholder="andrew@polka" />
             <AiOutlineEye size={25} className={` ${styles.icons} p3 pointer`} />
-          </section>
-        </section>
-
-        <section className="flex justify-content align-content  ">
-          <section className="flex flex-column ">
+            <section className="flex flex-column ">
             <section className={`  heading1 text-center fontWeight1`}>
               Forgot password?{" "}
               <span className={` ${styles.spanText} fontWeight2  pointer`}>
@@ -47,7 +43,13 @@ const Form = () => {
               </span>
             </section>
           </section>
+          </section>
+          {/* <section className="flex justify-content align-content  "> */}
+          
+        {/* </section> */}
         </section>
+
+       
 
         <section className={` ${styles.mobile} flex gap2`}>
           <section className="heading1  fontWeight1 align-self ">
