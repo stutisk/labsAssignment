@@ -8,10 +8,10 @@ body {
   /* background-color: rgb(236, 250, 245); */
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
 
 :root {
   --form-background-color: rgb(255, 255, 255);
@@ -108,6 +108,9 @@ code {
 .p3{
   padding: 5px;
 }
+.p4{
+  padding: 1rem;;
+}
 
 .button{
   width: 32px;
@@ -132,4 +135,7 @@ border: none;
   color: var(--black-color);
  font-weight: 400;
  font-size: 1rem;
+}
+.max-width{
+width:100%;
 }
