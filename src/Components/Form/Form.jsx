@@ -53,7 +53,7 @@ const Form = () => {
 
         <section className={` ${styles.mobile} flex gap2`}>
           <section className="heading1  fontWeight1 align-self ">
-            Stay signed in
+          <input className=" " type="checkbox" placeholder="andrew@polka" />      Stay signed in
           </section>
 
           <section>
