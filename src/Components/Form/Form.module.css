@@ -25,6 +25,7 @@ input[type=password] {
   border-radius: 999px;
   position: relative;
 }
+
 .spanText {
   color: var(--border-color);
 }
@@ -50,7 +51,7 @@ footer {
   .page {
     width: 100%;
   }
-  input {
+  input[type=password] {
     width: 100%;
   
   }
